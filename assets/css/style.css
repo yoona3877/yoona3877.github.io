@@ -1,5 +1,5 @@
 
-.indexbg{
+body{
     background: #2B472C
 }
 .container-fluid {
@@ -31,4 +31,5 @@ h3{
 
 .glyphicon {
     font-size: 50px;
+    color:white;
 }
