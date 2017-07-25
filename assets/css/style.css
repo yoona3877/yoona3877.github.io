@@ -1,15 +1,13 @@
 
 body{
-    background: #2B472C
+    background: lightblue;
 }
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
-.indexbg1{
-    background: #2B472C;
-}
+
 
 .indeximg{
     border:4px solid white;
@@ -29,7 +27,7 @@ h3{
     font-family: monospace;
 }
 
-.glyphicon {
-    font-size: 50px;
+.fa {
+    padding-top:10pt;
     color:white;
 }
