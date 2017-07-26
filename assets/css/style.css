@@ -1,4 +1,8 @@
 
+
+/*
+* General
+*/
 body{
     background: lightblue;
 }
@@ -7,7 +11,17 @@ body{
     padding-bottom: 40px;
 }
 
+.whitetxt{
+    color: white;
+}
 
+h3{
+    font-family: monospace;
+}
+
+/*
+* index.html
+*/
 
 .indeximg{
     border:4px solid white;
@@ -19,15 +33,25 @@ body{
     -o-transform:       rotate(270deg);
 }
 
-.whitetxt{
-    color: white;
-}
-
-h3{
-    font-family: monospace;
-}
-
 .fa {
     padding-top:10pt;
     color:white;
 }
+
+/*
+* about.html
+*/
+
+.aboutdiv{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.panel-default > .panel-heading {
+    background-color: cadetblue;
+    border-color: cadetblue;
+    color:white;
+}
+
