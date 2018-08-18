@@ -25,38 +25,113 @@
     <script src="assets/js/bootstrap.min.js"></script>
   </head>
   <body>
-      
-      <!--Navigation Bar-->
-      <div class="container-fluid">
-          <ul class="nav nav-pills nav-justified" role="tablist">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">ABOUT ME</a></li>
-            <li><a href="project.html">PROJECT</a></li> 
-            <li><a href="interest.html">INTEREST</a></li>
-          </ul>
+      <div class="wrapper">
+    <!-- Sidebar -->
+          <nav id="sidebar">
+              <div class="sidebar-header">
+                  YOONA PARK
+              </div>
+
+              <ul class="list-unstyled components">
+                  <li class="active">
+                      <a href="#Home">Home</a>
+                  </li>
+                  <li>
+                      <a href="#Education">Education</a>
+                  </li>
+                  <li>
+                      <a href="#Research">Research Project</a>
+                  </li>
+                  <li>
+                      <a href="#Work">Work Experience</a>
+                  </li>
+                  <li>
+                      <a href="#Awards">Awards</a>
+                  </li>
+              </ul>
+              <div class="sidebar-icons">
+                  <a href="https://github.com/yoona3877"
+                     target="_blank">
+                      <i class="fa fa_flag fa-github" style="font-size:30px">
+                      </i>
+                  </a> &nbsp; &nbsp;&nbsp; &nbsp;
+                  <a href="https://www.linkedin.com/in/yoona-park-7661b2132/" target="_blank">
+                      <i class="fa fa_flag fa-linkedin" style="font-size:30px">
+                      </i>
+                  </a> 
+              </div>          
+          </nav>
+
+          <!--Main-->
+          <div class="container-fluid">
+              <section class="resume-section" id = "Home">
+                  <div id = "linebox"><a> ABOUT </a></div>
+                  <span style="float:right;"><img src="assets/images/yoona.png" class="img-circle indeximg" width="150px"/></span>
+                  <div class = "blockcontent">
+                      <p><font color = "grey" size="3.5pt">I am pursuing Bachelor's degree in computer science and statistics at University of Toronto. My first two years at UofT focused on life science, and switched to computer science in my third year. </font></p>
+                  </div>
+                  <div class = "blockcontent">
+                      <p><font color = "grey" size="3.5pt"> I have a keen interest in application of machine learning in healthcare. </font></p>
+                  </div>
+                  <div id = "linebox"><a> CONTACT </a></div>    
+                  <h4> yoona.park [at] mail.utoronto.ca </h4>
+              </section>
+
+              <section class="resume-section" id = "Education">
+                  <div id ="linebox"><a> EDUCATION </a></div>
+                  <h3>UNIVERSITY OF TORONTO</h3>
+                  <h4> <font color = "grey">Bachelor of Science </font></h4>
+                  <h5 class="alignleft"> Computer Science &amp; Statistics 
+                    <span style="float:right;">2016 - Present</span></h5>
+                  <h5 class="alignleft"> Life Science
+                    <span style="float:right;">2014 - 2016</span></h5>
+                  <h5> <font color = "grey">cGPA : 3.92/4.00 </font></h5>
+              </section>
+
+              <section class="resume-section" id = "Research">
+                  <div id = "linebox"><a> RESEARCH PROJECT </a></div>
+                      <div class = "blockcontent">
+                          <h3>SUMMER RESEARCH STUDENT</h3>
+                          <h4> <font color="grey"> Department of Computer Science @ UofT<span style="float:right"><font size="2pt">May 2018 - Aug 2018</font></font></span></h4>
+                          <p> Verbal Autopsy is a method of making prediction of a probable cause of death (CoD) given non-medical data collected by surveyors. This research focuses on making classification of CoD with text narrative using machine learning and NLP. The improvement of Verbal Autopsy will lead to an salient decision of public health plans and funding in countries where no physical autopsy is performed. </p>
+                      </div>
+                      <div class = "blockcontent">
+                              <h3>RESEARCH STUDENT</h3>
+                              <h4> <font color="grey"> Donnelly Centre @ UofT<span style="float:right"><font size="2pt">Nov 2016 - Apr 2018</font></font></span></h4>
+                              <p> Chip-Seq is a technique used to determine interactions between proteins and DNA. Various tools exist for DNA data analysis, but people with no computer science background have difficulty using those tools with diverse functionalities. My research focuses on developing an Chip-Seq data analysis application which produces an DNA data-analyzed table/graph in a simple step. </p>
+                  </div>
+              </section>
+
+              <section class="resume-section" id = "Work">
+                  <div id = "linebox"><a> WORK EXPERIENCE </a></div>
+                  <h3>DATA SCIENTIST</h3>
+                  <h4> <font color = "grey"> BMO Financial Group
+                    <span style="float:right"><font size="2pt">Starting Sep 2018</font></font></span></font></h4>
+                  <p>Deatils will be updated in a timely manner</p>
+              </section>
+
+              <section class="resume-section" id="Awards">
+                  <div id = "linebox"><a> AWARDS </a></div>
+                  <h4>NSERC Undergruate Summer Research Awards
+                    <span style="float:right"><font color="black" size="3pt">May 2018</font></span></h4>
+                  <h4> ASA DataFest @ UofT : 3rd Place
+                    <span style="float:right"><font color="black" size="3pt">May 2018</font></span></h4>
+                  <h4>Chancellor's Scholarships
+                    <span style="float:right"><font color="black" size="3pt">2015,2016,2017</font></span></h4>
+                  <h4>Dean's List Scholar
+                    <span style="float:right"><font color="black" size="3pt">2015,2016,2017</font></span></h4>
+                  <h4>President's Scholars of Excellent Program
+                    <span style="float:right"><font color="black" size="3pt">2014</font></span></h4>
+
+                
+
+              </section>
+
+
+          </div>
+
       </div>
       
-      <!--Main-->
-      <div class="container-fluid text-center whitetxt">
-          <img src="assets/images/yoona.jpg" class="img-circle indeximg" width="200px"/>
-          <h2 style="margin-bottom: 20px; font-family: monospace"> Yoon A Park </h2>
-          <h5> Undergraduate in University of Toronto </h5>
-          <h5> Computer Science / Bioinformatics </h5>
-
-          <a href="https://github.com/yoona3877"
-             target="_blank">
-              <i class="fa fa-github" style="font-size:30px">
-              </i>
-          </a> &nbsp; &nbsp;
-          <a href="https://www.linkedin.com/in/yoona-park-7661b2132/" target="_blank">
-              <i class="fa fa-linkedin" style="font-size:30px">
-              </i>
-          </a> &nbsp; &nbsp;
-          <a href="mailto:yoona.park@mail.utoronto.ca">
-              <i class="fa fa-envelope" style="font-size:30px">
-              </i>
-          </a>
-     </div>
       
 
   </body>

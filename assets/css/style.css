@@ -4,8 +4,10 @@
 * General
 */
 body{
-    background: lightblue;
+    background-color: white;
 }
+
+
 .container-fluid {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -16,21 +18,65 @@ body{
 }
 
 h3{
-    font-family: monospace;
+    letter-spacing: 2px;
 }
 
 /*
 * index.html
 */
 
+.wrapper {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    align-items: stretch;
+}
+
+/* sidebar */
+#sidebar {
+    min-width: 260px;
+    max-width: 260px;
+    min-height: 100vh;
+    background: grey;
+    color: #fff;
+    transition: all 0.3s;
+    position: fixed;
+
+}
+
+#sidebar .sidebar-header {
+    margin-top: 20px;
+    margin-left: 7%;
+    padding: 10%;
+    font-size: 20pt;
+    font-family: "Courier";
+    letter-spacing: 1px;
+}
+
 .indeximg{
     border:4px solid white;
-    margin-bottom: 45px;
-    transform:          rotate(270deg);
-    -ms-transform:      rotate(270deg);
-    -moz-transform:     rotate(270deg);
-    -webkit-transform:  rotate(270deg);
-    -o-transform:       rotate(270deg);
+    margin:10px;
+}
+
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.2em;
+    display: block;
+    color: white;
+
+}
+
+#sidebar ul li a:hover{
+    background-color: darkgrey;
+}
+
+#sidebar .sidebar-icons {
+    padding-left:35%;
 }
 
 .fa {
@@ -38,6 +84,65 @@ h3{
     color:white;
 }
 
+.fa_flag:hover{
+    color: black;
+}
+
+
+
+/* Home */
+
+
+#Home a, #Education a, #Work a, #Research a, #Awards a{
+    font-family: "Courier";
+    letter-spacing: 4px;
+    font-size: 30pt;
+    pointer-events:none;
+    color: black;
+}
+
+#linebox {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 2pt;
+    margin-bottom: 40pt;
+}
+
+.blockcontent{
+    padding-bottom: 20pt;
+}
+
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 60rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+/* Awards */
+#Awards h4 {
+    padding:5px;
+    color:grey;
+}
 /*
 * about.html
 */
