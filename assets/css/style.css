@@ -26,6 +26,12 @@ h3{
     border-color: grey;
 }
 
+@media (max-width: 800px) {
+    button.btn {
+        display:none !important;
+    }
+}
+
 /*
 * index.html
 */
@@ -46,12 +52,10 @@ h3{
     color: #fff;
     transition: all 0.3s;
     position: fixed;
-
 }
 
 #sidebar.active {
     margin-left: -250px;
-
 }
 
 #sidebar .sidebar-header {
