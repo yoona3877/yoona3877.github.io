@@ -7,3 +7,11 @@ $(document).ready(function () {
     });
 
 });
+
+$(document).ready(function () {
+
+    $('#sidebarDisappear').on('click', function () {
+        $('#sidebar').toggleClass('active');
+    });
+
+});

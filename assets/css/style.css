@@ -26,6 +26,15 @@ h3{
     border-color: grey;
 }
 
+.btn:hover{
+    background-color: darkgrey;
+    border-color: darkgrey;
+}
+
+.btn.active{
+    display: None;
+}
+
 /*
 * index.html
 */
