@@ -34,8 +34,8 @@ h3{
 
 /* sidebar */
 #sidebar {
-    min-width: 260px;
-    max-width: 260px;
+    min-width: 22%;
+    max-width: 22%;
     min-height: 100vh;
     background: grey;
     color: #fff;
