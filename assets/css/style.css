@@ -39,8 +39,8 @@ h3{
 
 /* sidebar */
 #sidebar {
-    min-width: 22%;
-    max-width: 22%;
+    min-width: 250px;
+    max-width: 250px;
     min-height: 100vh;
     background: grey;
     color: #fff;
@@ -50,7 +50,8 @@ h3{
 }
 
 #sidebar.active {
-    margin-left: -22%;
+    margin-left: -250px;
+
 }
 
 #sidebar .sidebar-header {
@@ -82,6 +83,12 @@ h3{
 
 #sidebar ul li a:hover{
     background-color: darkgrey;
+}
+
+@media (max-width: 800px) {
+    #sidebar {
+        display:none !important;
+    }
 }
 
 #sidebar .sidebar-icons {
