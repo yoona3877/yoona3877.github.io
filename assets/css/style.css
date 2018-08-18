@@ -21,6 +21,11 @@ h3{
     letter-spacing: 2px;
 }
 
+.btn{
+    background-color:grey;
+    border-color: grey;
+}
+
 /*
 * index.html
 */
@@ -42,6 +47,10 @@ h3{
     transition: all 0.3s;
     position: fixed;
 
+}
+
+#sidebar.active {
+    margin-left: -22%;
 }
 
 #sidebar .sidebar-header {
